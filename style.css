@@ -46,15 +46,17 @@
     width: 100%;
     margin: 20px 0;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
   }
   .pesquisa input{
     height: 50px;
     max-width: 70%;
+    min-width: 50%;
     border:none;
     border-radius: 20px;
     padding: 10px;
     background:#c9c8c8;
+    margin-right: 20px;
     
   }
 
@@ -65,10 +67,10 @@
 
   .pesquisa button{
     border: none;
-    min-width: 20%;
     border-radius: 10px;
     background:#c9c8c8;
     padding: 10px;
+    cursor: pointer;
   }
 
   li{
